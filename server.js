@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 
 /* MIDDLEWARE */
+const path = require('path');
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'client/build')));
