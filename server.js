@@ -5,7 +5,7 @@ const app = express();
 /* MIDDLEWARE */
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
-app.use(express.static('client'));
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 /*** DEPENDENCIES ***/
 const axios = require('axios');
@@ -49,6 +49,10 @@ app.post('/quiz-end', (req, res) => {
 
 });
 
+//catch-all route
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname+'/client/build/index.html'));
+});
 
 /*** RUNTIME ***/
 app.listen(PORT, () => console.log("mixing things up at port " + PORT));
