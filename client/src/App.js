@@ -1,9 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react';
+
+/*** COMPONENTS ***/
+import Article from './Components/Article';
+import Search from './Components/Search';
 
 function App() {
+
+  const [searchResults, setSearchResults] = useState("");
+
   return (
     <div>
-      hello world!!!
+      <Article setSearchResults={setSearchResults} />
+      <Search searchResults={searchResults} />
     </div>
   )
 }
