@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     async function fetchFromStrapi() {
-      let response = await axios.get('http://161.35.51.94/projects');
+      let response = await axios.get('http://admin.egeuz.com/projects');
       console.log(response.data[0].title);
     }
 
