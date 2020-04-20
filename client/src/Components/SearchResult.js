@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SearchResult({data}) {
+function SearchResult({ data }) {
   return (
     <div className="search-result">
       <a className="search-result-link" href={data.link}>

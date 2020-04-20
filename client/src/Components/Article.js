@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import axios from 'axios'
 
-function Article({setSearchResults}) {
+function Article({ setSearchResults }) {
 
   useEffect(() => {
 
@@ -10,7 +10,6 @@ function Article({setSearchResults}) {
         try {
           const res = await axios.post(`/highlight-search/`, { query: document.getSelection().toString() })
           const data = res.data;
-          console.log(data);
           setSearchResults(data);
 
         } catch (err) {
