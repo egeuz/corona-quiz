@@ -2,6 +2,9 @@
 const express = require('express');
 const app = express();
 
+/* QUESTION DATA */
+const questions = require('./data.json')
+
 /* MIDDLEWARE */
 const path = require('path');
 const bodyParser = require('body-parser');
@@ -38,12 +41,11 @@ app.post('/highlight-search', async (req, res) => {
   } catch (err) {
     console.log(err);
   }
-  
 })
 
 
-app.get('/quiz-start', (req, res) => {
-  res.send("hi there");
+app.get('/quiz-start', async (req, res) => {
+  res.json(questions);
 });
 
 app.post('/quiz-end', (req, res) => {
