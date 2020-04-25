@@ -20,8 +20,8 @@ const GOOGLE_ENGINE_ID = process.env.GOOGLE_ENGINE_ID;
  
 /*** DATABASE ***/
 const mongoose = require('mongoose');
-// const Question = require('./models/questions');
-// const QuizData = require('./models/quizdata');
+const Question = require('./models/questions');
+const QuizData = require('./models/quizdata');
 mongoose.connect(MONGODB_URI, {useNewUrlParser: true});
 
 /*** ROUTES ***/

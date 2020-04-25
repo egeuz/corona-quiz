@@ -1,0 +1,42 @@
+#intro {
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+#user-agreement {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 40px auto;
+  align-items: center;
+  margin: 100px 0;
+
+  input, span, label {
+    cursor: pointer;
+  }
+
+  label {
+    font-style: italic;
+  }
+
+  /*STYLE THE INPUT IN A MORE CUSTOMIZED FASHION LATER */
+  input {
+    width: 44px;
+  }
+}
+
+#call-to-action {
+  width: 100%;
+  max-width: 300px;
+  height: 44px;
+  margin: 0 auto;
+  border: 3px solid #111;
+  text-align: center;
+  padding: 8px 0;
+
+  &.disabled {
+    cursor: auto;
+    border-color: #999;
+    color: #999;
+  }
+}

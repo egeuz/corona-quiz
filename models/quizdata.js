@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const quizDataSchema = new mongoose.Schema({
-
+  userId: Number
 });
 
-module.exports = mongoose.Model('QuizData', quizDataSchema);
+module.exports = mongoose.model('QuizData', quizDataSchema);

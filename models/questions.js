@@ -5,4 +5,4 @@ const questionSchema = new mongoose.Schema({
   correctAnswer: String
 });
 
-module.exports = mongoose.Model('Question', questionSchema);
+module.exports = mongoose.model('Question', questionSchema);

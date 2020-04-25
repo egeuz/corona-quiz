@@ -1,26 +1,23 @@
-import React, {useState, useEffect} from 'react';
-import axios from 'axios';
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-/*** COMPONENTS ***/
-import Article from './Components/Article';
-import Search from './Components/Search';
+/* COMPONENTS */
+import Intro from './Components/Intro'
+import Quiz from './Components/Quiz'
+import QuizEnd from './Components/QuizEnd'
+import Results from './Components/Results'
 
 function App() {
-
-  const [searchResults, setSearchResults] = useState("");
-
-  useEffect(() => {
-    async function fetchFromStrapi() {
-      let response = await axios.get('http://admin.egeuz.com/projects');
-      console.log(response.data[0].title);
-    }
-
-    fetchFromStrapi();
-  });
   return (
-    <div>
-      <Article setSearchResults={setSearchResults} />
-      <Search searchResults={searchResults} />
+    <div id="main">
+      <Router>
+        <Switch>
+          <Route path="/" exact component={Intro} />
+          <Route path="/quiz/:id" exact component={Quiz} />
+          <Route path="/quiz-end" exact component={QuizEnd} />
+          <Route path="/results" exact component={Results} />
+        </Switch>
+      </Router>
     </div>
   )
 }
