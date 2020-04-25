@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Video() {
+function Video({embed}) {
+  console.log(embed)
   return (
     <div>
-      this is a video
+      embed
     </div>
   )
 }

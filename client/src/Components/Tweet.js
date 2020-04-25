@@ -1,10 +1,9 @@
 import React from 'react'
 
-function Tweet() {
+function Tweet({embed}) {
+  console.log(embed)
   return (
-    <div>
-      this is a tweet
-    </div>
+    <div dangerouslySetInnerHTML={{__html: embed}}></div>
   )
 }
 
