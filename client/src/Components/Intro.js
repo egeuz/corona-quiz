@@ -25,7 +25,7 @@ function Intro() {
             setUserAgreement(prevState => !prevState)
           }}
         />
-        <label htmlFor="user-agreement">This website collects data about your activity on it, particularly about your potential susceptibility to disinformation and your news consumption/fact-checking practices. All data collected is anonymous and will not be shared with third parties. Please check the checkbox to agree with all this and begin the quiz.</label>
+        <label htmlFor="user-agreement">This website collects data about your activity on it. All data collected is anonymous and will not be shared with third parties. Please check the checkbox to agree with all this (replace w/ better copy)</label>
       </div>
 
       <Link

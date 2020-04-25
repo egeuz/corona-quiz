@@ -1,0 +1,29 @@
+#quiz {
+  width: 100%;
+  max-width: 1600px;
+  height: 90vh;
+  display: grid;
+  margin: 5vh auto;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+#content {
+  border: 2px solid #111;
+}
+
+#questions {
+  display: grid;
+  height: 100%;
+  grid-gap: 50px;
+  grid-template-rows: 1fr 1fr 40px;
+
+  & > div {
+    border: 2px solid #111;
+  }
+}
+
+
+button.selected {
+  background: blue;
+}
