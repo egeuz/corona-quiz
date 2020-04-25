@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-function Questions({ questionID, setQuestionID, setView }) {
+function Questions({ questionID, setQuestionID, setView, totalQuestions }) {
 
   const [accuracy, setAccuracy] = useState("");
   const [confidence, setConfidence] = useState(3);
 
+  const handleContinue = () => {
+
+  }
 
   return (
     <div id="questions">

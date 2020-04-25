@@ -29,8 +29,8 @@ function Quiz(props) {
         <Content currentQuestion={currentQuestion} />
       }
       {
-        (view === "regular-questions") ? <Questions questionID={questionID} setQuestionID={setQuestionID} setView={setView} /> :
-        (view === "search") ? <Search setView={setView} /> :
+        (view === "regular-questions") ? <Questions questionID={questionID} setQuestionID={setQuestionID} setView={setView} totalQuestions={questions.length} /> :
+        (view === "search") ? <Search setView={setView} currentQuestion={currentQuestion}/> :
         ""
       }
 

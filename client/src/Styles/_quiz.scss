@@ -24,6 +24,15 @@
   }
 }
 
+#search-view {
+  height: 90vh;
+  display: grid;
+  grid-template-rows: auto 40px;
+}
+#search-results {
+  border:2px solid #111;
+  overflow-y: scroll;
+}
 
 button.selected {
   background: blue;
