@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Semibold.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-RegularItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Black.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-MediumItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Bold.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Medium.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Regular.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Heavy.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-Heavy.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-HeavyItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-HeavyItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-SemiboldItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-SemiboldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-BoldItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'New-York';
+  src: url('../Assets/Fonts/NewYork/NewYorkExtraLarge-BlackItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/NewYork/NewYorkExtraLarge-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-Regular.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-Light.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-Bold.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-LightItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-Heavy.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-RegularItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-Medium.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-Semibold.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-HeavyItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-HeavyItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-BoldItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-MediumItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('../Assets/Fonts/SFMono/SFMono-SemiboldItalic.woff2') format('woff2'),
+      url('../Assets/Fonts/SFMono/SFMono-SemiboldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+

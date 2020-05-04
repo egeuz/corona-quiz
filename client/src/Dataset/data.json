@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "type": "news",
+    "source": "ABC News",
+    "link": "https://abcnews.go.com/Health/wireStory/conspiracy-theorists-burn-5g-towers-claiming-link-virus-70258811",
+    "embed": "https://abcnews.go.com/Health/wireStory/conspiracy-theorists-burn-5g-towers-claiming-link-virus-70258811",
+    "factcheck": "https://www.aap.com.au/crossed-wires-over-nz-coronavirus-lockdown-and-5g-rollout-link/",
+    "keywords": "5G, Coronavirus, Lockdown, Australia"
+  },
+  {
+    "id": 2,
+    "type": "news",
+    "source": "CNN",
+    "link": "https://www.cnn.com/2020/04/20/politics/kim-jong-un-north-korea/index.html",
+    "embed": "https://www.cnn.com/2020/04/20/politics/kim-jong-un-north-korea/index.html",
+    "factcheck": "https://www.politifact.com/factchecks/2020/apr/22/youtube-videos/there-are-no-breaking-news-reports-kim-jong-un-has/",
+    "keywords": "Kim Jong-un, Death, North Korean"
+  },
+  {
+    "id": 3,
+    "type": "tweet",
+    "source": "Twitter",
+    "link": "https://twitter.com/SleekWhizzKe/status/1252905129289883648",
+    "embed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Bill gates wants to vaccinate everyone at a price tho..So Who&#39;s ready to get chipped and tracked after getting his Coronavirus vaccine ? 🙄 <a href=\"https://twitter.com/hashtag/GatesHacked?src=hash&amp;ref_src=twsrc%5Etfw\">#GatesHacked</a> <a href=\"https://t.co/8XfJBNhzPo\">pic.twitter.com/8XfJBNhzPo</a></p>&mdash; Sleek Whizz ✪ (@SleekWhizzKe) <a href=\"https://twitter.com/SleekWhizzKe/status/1252905129289883648?ref_src=twsrc%5Etfw\">April 22, 2020</a></blockquote> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+    "factcheck": "https://www.poynter.org/?ifcn_misinformation=bill-gates-is-plotting-to-use-covid-19-testing-and-a-future-vaccine-to-track-people-with-microchips",
+    "keywords": "Bill Gates, Vaccine conspiracy theory"
+  },
+  {
+    "id": 4,
+    "type": "tweet",
+    "source": "Twitter",
+    "link": "https://twitter.com/charliekirk11/status/1246159197621727234?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1246159197621727234&ref_url=https%3A%2F%2Fwww.politifact.com%2Ffactchecks%2F2020%2Fapr%2F07%2Fcharlie-kirk%2Fchina-spying-you-through-zoom-charlie-kirk-oversta%2F",
+    "embed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Stop using Zoom immediately.<br><br>Any tech company that aligns with China must be ex-communicated from our country<br><br>The Chinese Communist Party is using Zoom as a way to spy on our citizens<br><br>RT! <a href=\"https://t.co/nylH3ltbgI\">https://t.co/nylH3ltbgI</a></p>&mdash; Charlie Kirk (@charliekirk11) <a href=\"https://twitter.com/charliekirk11/status/1246159197621727234?ref_src=twsrc%5Etfw\">April 3, 2020</a></blockquote> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+    "factcheck": "https://www.politifact.com/factchecks/2020/apr/07/charlie-kirk/china-spying-you-through-zoom-charlie-kirk-oversta/",
+    "keywords": "Zoom, China, Spy"
+  },
+  {
+    "id": 5,
+    "type": "news",
+    "source": "CNN",
+    "link": "https://www.cnn.com/2020/01/07/australia/australia-camel-cull-scli-intl/index.html",
+    "embed": "https://www.cnn.com/2020/01/07/australia/australia-camel-cull-scli-intl/index.html",
+    "factcheck": "https://www.snopes.com/fact-check/10000-camels-culled-australia/",
+    "keywords": "Camels, Australia, Kill"
+  }
+]

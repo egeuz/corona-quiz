@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
+import { QuizContext } from '../App'
 import axios from 'axios'
 import SearchResult from './SearchResult'
 
 function Search({ setView, currentQuestion }) {
-
+  const {state, dispatch} = useContext(QuizContext);
   const [searchResults, setSearchResults] = useState("");
 
   useEffect(() => {
-    fetchSearchResults(currentQuestion.google_search_keyword);
+    fetchSearchResults(state.currentArticle.keywords);
 
     async function fetchSearchResults(keywords) {
       const res = await axios.post(`/highlight-search`, { query: keywords });
@@ -28,7 +29,6 @@ function Search({ setView, currentQuestion }) {
           })
         }
       </div>
-      <button onClick={() => { setView("regular-questions") }}>BACK TO QUESTIONS</button>
     </div>
   )
 }

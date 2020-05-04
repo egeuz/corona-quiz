@@ -1,36 +1,28 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
+import { QuizContext } from '../App'
 import { Link } from 'react-router-dom'
 
-function Questions({ questionID, setQuestionID, setView, totalQuestions }) {
+function Questions({ factcheck }) {
 
+  const values = ["VERY INCONFIDENT", "SOMEWHAT INCONFIDENT", "NEUTRAL", "SOMEWHAT CONFIDENT", "VERY CONFIDENT"];
   const [accuracy, setAccuracy] = useState("");
   const [confidence, setConfidence] = useState(3);
-
-  const handleContinue = () => {
-
-  }
 
   return (
     <div id="questions">
       <div id="question-accuracy">
-        <p>Do you think this is accurate information?</p>
+        <h1>Do you think this information is accurate?</h1>
         <div id="answer-set">
           <button onClick={() => { setAccuracy("Yes") }} className={accuracy === "Yes" ? "selected" : ""}>YES</button>
           <button onClick={() => { setAccuracy("No") }} className={accuracy === "No" ? "selected" : ""}>NO</button>
-          <button onClick={() => { setView("search") }}>NEED MORE INFO</button>
         </div>
       </div>
+      <div className="line-break"></div>
       <div id="question-confidence">
-        <p>How confident are you in your answer?</p>
+        <h1>How confident are you <br />in your answer?</h1>
         <input type="range" min="1" max="5" value={confidence} onChange={(e) => { setConfidence(e.target.value) }} />
+        <p>{values[confidence - 1]}</p>
       </div>
-      <Link
-        id="continue"
-        onClick={() => { setQuestionID(prevState => prevState + 1) }}
-        to={`/quiz/${questionID + 1}`}
-      >
-        Continue
-      </Link>
     </div>
   )
 }

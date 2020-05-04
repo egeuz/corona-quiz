@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-Semibold.woff2') format('woff2'),
+        url('NewYorkExtraLarge-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-RegularItalic.woff2') format('woff2'),
+        url('NewYorkExtraLarge-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-Black.woff2') format('woff2'),
+        url('NewYorkExtraLarge-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-MediumItalic.woff2') format('woff2'),
+        url('NewYorkExtraLarge-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-Bold.woff2') format('woff2'),
+        url('NewYorkExtraLarge-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-Medium.woff2') format('woff2'),
+        url('NewYorkExtraLarge-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-Regular.woff2') format('woff2'),
+        url('NewYorkExtraLarge-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-Heavy.woff2') format('woff2'),
+        url('NewYorkExtraLarge-Heavy.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-HeavyItalic.woff2') format('woff2'),
+        url('NewYorkExtraLarge-HeavyItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-SemiboldItalic.woff2') format('woff2'),
+        url('NewYorkExtraLarge-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-BoldItalic.woff2') format('woff2'),
+        url('NewYorkExtraLarge-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('NewYorkExtraLarge-BlackItalic.woff2') format('woff2'),
+        url('NewYorkExtraLarge-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+

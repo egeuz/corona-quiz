@@ -1,39 +1,24 @@
-import React, { useState, useEffect, useContext } from 'react'
-import axios from 'axios'
+import React, { useEffect, useContext } from 'react'
 import { QuizContext } from '../App'
 
 /* COMPONENTS */
-import Content from './Content'
-import Questions from './Questions'
-import Search from './Search'
+import LeftView from './LeftView'
+import RightView from './RightView'
 
 function Quiz(props) {
 
-  const questions = useContext(QuizContext);
+  const {state, dispatch} = useContext(QuizContext);
 
-  //UI STATE
-  const [currentQuestion, setCurrentQuestion] = useState("");
-  const [questionID, setQuestionID] = useState(0);
   useEffect(() => {
-    setQuestionID(parseInt(props.match.params.questionID))
-    setCurrentQuestion(questions.find(q => q.article_id == questionID))
-  }, [questionID])
-
-  const [view, setView] = useState("regular-questions");
-
+    const id = props.match.params.questionID;
+    console.log(id);
+    dispatch({type: "set-current-article", id: parseInt(id)});
+  }, [props.match.params.questionID]);
 
   return (
     <div id="quiz">
-      {
-        (currentQuestion) &&
-        <Content currentQuestion={currentQuestion} />
-      }
-      {
-        (view === "regular-questions") ? <Questions questionID={questionID} setQuestionID={setQuestionID} setView={setView} totalQuestions={questions.length} /> :
-        (view === "search") ? <Search setView={setView} currentQuestion={currentQuestion}/> :
-        ""
-      }
-
+      <LeftView />
+      <RightView />
     </div>
   )
 }
